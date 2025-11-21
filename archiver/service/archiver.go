@@ -22,7 +22,7 @@ import (
 
 const (
 	liveFetchBlobMaximumRetries    = 10
-	startupFetchBlobMaximumRetries = 3
+	startupFetchBlobMaximumRetries = 10
 	rearchiveMaximumRetries        = 3
 	backfillErrorRetryInterval     = 5 * time.Second
 )
